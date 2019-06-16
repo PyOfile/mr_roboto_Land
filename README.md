@@ -7,3 +7,7 @@ This is my first time commiting. I created it using some lessons I have learned 
 
 I just wanted to add where I learned about object oriented D&D styled python games. I purchased mikeckennedy course Python Jumpstart By Building 10 apps. Was inspiring and you learn lots. 
 Please check out talkpython.fm Great matterial. 
+
+
+
+Next thing I would like to do is multi thread this game. I plan restructure it so it can go along with the seasons of the show.
