@@ -10,4 +10,4 @@ Please check out talkpython.fm Great matterial.
 
 
 
-Updated with another level to play after the first loop if over. Next I think ill automate the trasition when I learn how. 
+Updated with another level to play after the first loop is over. Next I think I'll automate the transition when I learn how. 
