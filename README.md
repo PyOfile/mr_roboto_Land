@@ -10,4 +10,4 @@ Please check out talkpython.fm Great matterial.
 
 
 
-Next thing I would like to do is add levels to this game. I plan to restructure it to reflect the seasons of the show.
+Updated with another level to play after the first loop if over. Next I think ill automate the trasition when I learn how. 
