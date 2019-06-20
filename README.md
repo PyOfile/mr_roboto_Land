@@ -10,4 +10,4 @@ Please check out talkpython.fm Great matterial.
 
 
 
-Next thing I would like to do is multi thread this game. I plan to restructure it to reflect the seasons of the show.
+Next thing I would like to do is add levels to this game. I plan to restructure it to reflect the seasons of the show.
