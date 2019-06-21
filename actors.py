@@ -2,7 +2,7 @@ import random
 
 
 class Creature:
-    def __init__(self, name: object, the_level: object) -> object:
+    def __init__(self, name, the_level):
         self.name = name
         self.level = the_level
 
@@ -40,21 +40,22 @@ class Pawns(Creature):
     def get_defensive_roll(self):
         base_roll = super().get_defensive_roll()
         return base_roll / 3
-    
-# new actor for the new level    
-    
+
+
+# new actor for the new level
+
 class Pawnscum(Creature):
-    def __init__(self, name, level, backstab, deception):
+    def __init__(self, name, level, back_stab, deception):
         super().__init__(name, level)
-        self.backstab = backstab
+        self.back_stab = back_stab
         self.deception = deception
-    
+
     def get_defensive_roll(self):
-            base_roll = super().get_defensive_roll()
-            stab_modifier = 7 if self.backstab else 3
-            decept_modifier = 9 if self.deception else 3
-            
-            return base_roll * stab_modifier * decept_modifier
+        base_roll = super().get_defensive_roll()
+        stab_modifier = 7 if self.back_stab else 3
+        decept_modifier = 9 if self.deception else 3
+
+        return base_roll * stab_modifier * decept_modifier
 
 
 class FBI(Creature):
@@ -64,27 +65,29 @@ class FBI(Creature):
         self.antivirus = antivirus
 
     def get_defensive_roll(self):
-            base_roll = super().get_defensive_roll()
-            fire_modifier = 5 if self.fire_wall else 1
-            anti_modifier = self.antivirus / 6
+        base_roll = super().get_defensive_roll()
+        fire_modifier = 5 if self.fire_wall else 1
+        anti_modifier = self.antivirus / 6
 
-            return base_roll * fire_modifier * anti_modifier
-        
- # new actors for the new level          
-        
-class FBI_snitch(Creature):
+        return base_roll * fire_modifier * anti_modifier
+
+
+# new actors for the new level
+
+class FBIsnitch(Creature):
     def __init__(self, name, level, fire_wall, blackmail):
         super().__init__(name, level)
         self.fire_wall = fire_wall
         self.blackmail = blackmail
 
     def get_defensive_roll(self):
-            base_roll = super().get_defensive_roll()
-            fire_modifier = 5 if self.fire_wall else 1
-            black_modifier = self.blackmail / 12
+        base_roll = super().get_defensive_roll()
+        fire_modifier = 5 if self.fire_wall else 1
+        black_modifier = self.blackmail / 12
 
-            return base_roll * fire_modifier * black_modifier
-        
+        return base_roll * fire_modifier * black_modifier
+
+
 class RightHand(Creature):
     def __init__(self, name, level, problem_solve, axe_man):
         super().__init__(name, level)
@@ -92,8 +95,8 @@ class RightHand(Creature):
         self.axe_man = axe_man
 
     def get_defensive_roll(self):
-            base_roll = super().get_defensive_roll()
-            solve_modifier = 4 if self.problem_solve else 1
-            axe_modifier = self.axe_man / 24
+        base_roll = super().get_defensive_roll()
+        solve_modifier = 4 if self.problem_solve else 1
+        axe_modifier = self.axe_man / 24
 
-            return base_roll * solve_modifier * axe_modifier
+        return base_roll * solve_modifier * axe_modifier
