@@ -2,7 +2,7 @@ import random
 import time
 
 
-from actors import Hacker, Creature, Pawns, FBI, FBI_snitch, Pawnscum, RightHand
+from actors import Hacker, Creature, Pawns, FBI, FBIsnitch, Pawnscum, RightHand
 
 
 def main():
@@ -29,7 +29,7 @@ def game_loop():
         Creature('Sharleen', 30),
         Pawns('The whITE-ARmy', 6),
         FBI('FBI', 18, 25, True),
-        FBI_snitch('Nesto', 4, 12, True),
+        FBIsnitch('Nesto', 4, 12, True),
         Pawnscum('SoulTravler', 16, 20, True),
         RightHand('Cannavale', 20, 40, True),
         Hacker('BLACK Violet', 408),
@@ -52,7 +52,7 @@ def game_loop():
             else:
                 print("LEs vision coms into focus............")
                 time.sleep(12)
-                print("a momment of clarity!")
+                print("a moment of clarity!")
         elif cmd == 'roboto':
             print('Mr.Roboto takes control of LE !!!')
         elif cmd == 'white papers':
@@ -71,7 +71,7 @@ def game_loop():
             print()
             print()
             print()
-            print("How Will this unrap next!!!!!!!!!!!!!!!!!!!!!!")
+            print("How Will this un-rap next!!!!!!!!!!!!!!!!!!!!!!")
             break
 
         print()
