@@ -50,7 +50,7 @@ def game_loop():
             if hero.attack(active_creature):
                 creatures.remove(active_creature)
             else:
-                print("LEs vision coms into focus............")
+                print("LEs vision comes into focus............")
                 time.sleep(12)
                 print("a moment of clarity!")
         elif cmd == 'roboto':
