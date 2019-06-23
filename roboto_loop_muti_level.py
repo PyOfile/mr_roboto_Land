@@ -93,7 +93,7 @@ def game_loopb():
         Creature('Sharleen', 30),
         Pawns('The whITE-ARmy', 6),
         FBI('FBI', 18, 25, True),
-        FBIsnitch('Nesto', 4, 12, True),
+        FBIsnitch('Nesto', 4, 12, False),
         Pawnscum('SoulTravler', 16, 20, True),
         RightHand('Cannavale', 20, 40, True),
         Hacker('BLACK Violet', 408),
