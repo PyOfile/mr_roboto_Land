@@ -10,4 +10,6 @@ Please check out talkpython.fm Great matterial.
 
 
 
-Updated with another level to play after the first loop is over. Next I think I'll automate the transition when I learn how. 
+Update: Added in line loops, to add the levels one after another.
+
+This has seriously been fun. I think my next goal is to update the headers to be more fun. Perhaps add some for leves. Hobby in progress. 
