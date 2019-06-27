@@ -12,4 +12,4 @@ Please check out talkpython.fm Great matterial.
 
 Update: Added in line loops, to add the levels one after another.
 
-This has seriously been fun. I think my next goal is to update the headers to be more fun. Perhaps add some for leves. Hobby in progress. 
+This has seriously been fun. I think my next goal is to update the headers to be more fun. Perhaps add some more levels. Hobby in progress. 
